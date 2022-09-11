@@ -25,7 +25,7 @@ class TKPFBilinearPooling(nn.Module):
 
     """
 
-    def __init__(self, input_dim, a=64, b=64, r=16, q=2, cuda=True):
+    def __init__(self, input_dim, a=64, b=64, r=16, q=2):
         super(TKPFBilinearPooling, self).__init__()
 
         self.a = a
@@ -48,9 +48,6 @@ class TKPFBilinearPooling(nn.Module):
             self.A_hat_list.append(A_hat)
             self.B_hat_list.append(B_hat)
 
-        if cuda:
-            self.A_hat_list = self.A_hat_list
-            self.B_hat_list = self.B_hat_list
 
     def forward(self, x):
         batch, _, height, width = x.size()
