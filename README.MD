@@ -1,6 +1,6 @@
 # Two-Level Kronecker Product Factorization Bilinear Pooling for PyTorch.
 
-This repository has a Python implementation of Two-Level Kronecker Product Factorization Bilinear Pooling for PyTorch by Yu et al, 2020  [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/20225)].
+This repository has a Python implementation of Two-Level Kronecker Product Factorization Bilinear Pooling for PyTorch by Yu et al, 2022  [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/20225)].
 
 This implementation uses `tensorly` for tensor folding and tensor modal product calculations.
 
@@ -23,4 +23,4 @@ z = bp(x)
 
 ## References
 
- - Yu Tan et al. "[Efficient Bilinear Pooling via Kronecker Product](https://ojs.aaai.org/index.php/AAAI/article/view/20225)", 2020
+ - Yu Tan et al. "[Efficient Bilinear Pooling via Kronecker Product](https://ojs.aaai.org/index.php/AAAI/article/view/20225)", 2022
